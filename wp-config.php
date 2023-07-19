@@ -26,7 +26,7 @@ define( 'DB_NAME', 'ikmkb' );
 define( 'DB_USER', 'root' );
 
 /** Database password */
-define( 'DB_PASSWORD', '' );
+define( 'DB_PASSWORD', 'bgdoeljkt123' );
 
 /** Database hostname */
 define( 'DB_HOST', 'localhost' );
@@ -94,3 +94,5 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 /** Sets up WordPress vars and included files. */
 require_once ABSPATH . 'wp-settings.php';
+
+define('FS_METHOD', 'direct');
